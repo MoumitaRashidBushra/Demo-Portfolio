@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Demo Portfolio</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- font link -->
+
+    <script
+      src="https://kit.fontawesome.com/4ee5f1f089.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <style>
+      html {
+        scroll-behavior: smooth;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- navbar start -->
+    <section
+      class="bg-base-300 bg-cover bg-center"
+      style="
+        background-image: url('https://img.freepik.com/premium-vector/hand-painted-pink-watercolor-background_278222-7729.jpg?w=826');
+      "
+    >
+      <div class="container mx-auto px-4">
+        <div class="navbar">
+          <div class="navbar-start">
+            <div class="dropdown">
+              <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-5 w-5"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M4 6h16M4 12h8m-8 6h16"
+                  />
+                </svg>
+              </div>
+              <ul
+                tabindex="0"
+                class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
+              >
+                <li>
+                  <a class="font-bold text-base mx-4 text-[#1e4870]">Home</a>
+                </li>
+
+                <li>
+                  <a class="font-bold text-base mx-4 text-[#1e4870]"
+                    >Projects</a
+                  >
+                </li>
+
+                <li>
+                  <a class="font-bold text-base mx-4 text-[#1e4870]">About</a>
+                </li>
+
+                <li>
+                  <a class="font-bold text-base mx-4 text-[#1e4870]"
+                    >Contact
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <a class="btn btn-ghost text-xl text-[#1e4870] font-bold">Ashik</a>
+          </div>
+          <div class="navbar-center hidden lg:flex">
+            <ul class="menu menu-horizontal px-1">
+              <li>
+                <a class="font-bold text-base mx-4 text-[#1e4870]">Home</a>
+              </li>
+
+              <li>
+                <a class="font-bold text-base mx-4 text-[#1e4870]">Projects</a>
+              </li>
+
+              <li>
+                <a class="font-bold text-base mx-4 text-[#1e4870]">About</a>
+              </li>
+
+              <li>
+                <a class="font-bold text-base mx-4 text-[#1e4870]">Contact </a>
+              </li>
+            </ul>
+          </div>
+          <div class="navbar-end">
+            <button
+              type="submit"
+              class="btn btn-modern bg-[#de0733] text-white"
+            >
+              Download CV
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- navbar  end -->
+
+    <!-- Hero section start -->
+    <section
+      id="home"
+      class="min-h-screen bg-[#141623] overflow-x-hidden text-white"
+    >
+      <div
+        class="container lg:container lg:mx-auto flex flex-col lg:flex-row items-center justify-between p-8"
+      >
+        <div
+          class="lg:w-1/2 flex flex-col justify-center p-8 lg:ms-10 bg-[#de0733] rounded-lg"
+        >
+          <h1 class="text-5xl font-extrabold mb-4">Ashik Ahmed Aronb</h1>
+          <p class="text-3xl mb-4">Back-End Developer (Django)</p>
+          <p class="mb-6">
+            Experienced in creating robust and scalable web applications using
+            Django. Passionate about developing efficient backend solutions and
+            writing clean, maintainable code.
+          </p>
+          <!-- <button class="bg-[#de0733] text-white rounded py-3 px-6 text-lg">
+            Hire me
+          </button> -->
+        </div>
+
+        <div class="lg:w-1/2 p-8 lg:ms-10">
+          <img
+            src="images/h1.jpeg"
+            alt="Hero Image"
+            class="rounded-lg"
+            width="400"
+            height="300"
+          />
+        </div>
+      </div>
+    </section>
+    <!-- Hero section end -->
+
+    <!-- About section start -->
+    <section
+      id="about"
+      class="min-h-screen bg-[#181b2a] bg-cover bg-center text-white"
+    >
+      <div class="container mx-auto px-10">
+        <h2 class="text-3xl font-bold mb-2 text-center pt-10 text-white">
+          About Me
+        </h2>
+        <div class="container mx-auto p-8 grid lg:grid-cols-3 gap-8">
+          <!-- Column 1: Description -->
+          <div class="lg:col-span-1">
+            <p class="text-lg mb-4 mt-1">
+              I am a creative and detail-oriented back-end developer
+              specializing in Django. With a strong foundation in Python,
+              Django, C/C++, OOP, and relational databases, I excel at building
+              visually appealing and user-friendly websites.
+            </p>
+            <p class="text-lg mb-4">
+              I am proficient in programming languages such as C, C++,
+              JavaScript, and Python, and have experience working with HTML,
+              CSS, Bootstrap, Tailwind, MySQL, and PostgreSQL. I hold a B.Sc in
+              Computer Science and Engineering from Bangladesh University of
+              Business and Technology.
+            </p>
+          </div>
+          <!-- Column 2: Image -->
+          <div class="lg:col-span-1 flex items-center justify-center">
+            <img
+              src="images/a-1.jpeg"
+              alt="About Image"
+              class="rounded-lg shadow-lg"
+            />
+          </div>
+          <!-- Column 3: Contact Cards -->
+          <div class="lg:col-span-1 space-y-6 mt-1">
+            <div class="text-white p-4 rounded-lg shadow-lg bg-[#de0733]">
+              <h3 class="text-2xl mb-2 text-center font-semibold text-white">
+                Existing project
+              </h3>
+              <p class="text-3xl text-center font-bold">15+</p>
+            </div>
+            <div class="text-white p-4 rounded-lg shadow-lg bg-[#de0733]">
+              <h3 class="text-2xl mb-2 text-center font-semibold text-white">
+                Problem solved
+              </h3>
+              <p class="text-3xl text-center font-bold">100+</p>
+            </div>
+            <div class="text-white p-4 rounded-lg shadow-lg bg-[#de0733]">
+              <h3 class="text-2xl mb-2 text-center font-semibold text-white">
+                Client project completed
+              </h3>
+              <p class="text-3xl text-center font-bold">5+</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- About section end -->
+
+    <!-- Timeline Section Start -->
+    <section
+      id="education"
+      class="min-h-screen bg-[#141623] py-12 bg-cover bg-center flex items-center text-white"
+    >
+      <div class="container mx-auto px-10">
+        <div class="container mx-auto p-8 text-white">
+          <h1 class="text-4xl font-bold mb-8 pt-5 text-center">
+            Education Timeline
+          </h1>
+          <div class="relative wrap overflow-hidden p-10 h-full">
+            <div
+              class="absolute border-white h-full border-2 border-dotted left-1/2"
+            ></div>
+
+            <!-- Timeline Item 1 -->
+            <div class="mb-8 flex justify-between items-center w-full">
+              <div class="order-1 w-5/12"></div>
+              <div
+                class="z-20 flex items-center order-1 bg-[#de0733] shadow-xl w-8 h-8 rounded-full"
+              >
+                <h1 class="mx-auto text-white font-semibold text-lg">1</h1>
+              </div>
+              <div
+                class="order-1 bg-[#de0733] rounded-lg shadow-xl w-5/12 px-6 py-4"
+              >
+                <h3 class="mb-3 font-bold text-white text-xl">
+                  B.Sc in Computer Science and Engineering
+                </h3>
+                <p
+                  class="leading-snug tracking-wide text-white text-opacity-100"
+                >
+                  Bangladesh University of Business and Technology
+                </p>
+              </div>
+            </div>
+
+            <!-- Timeline Item 2 -->
+            <div class="mb-8 flex justify-between items-center w-full">
+              <div class="order-1 w-5/12"></div>
+              <div
+                class="z-20 flex items-center order-1 bg-[#de0733] shadow-xl w-8 h-8 rounded-full"
+              >
+                <h1 class="mx-auto text-white font-semibold text-lg">2</h1>
+              </div>
+              <div
+                class="order-1 bg-[#de0733] rounded-lg shadow-xl w-5/12 px-6 py-4"
+              >
+                <h3 class="mb-3 font-bold text-white text-xl">
+                  Higher Secondary Certificate (HSC)
+                </h3>
+                <p
+                  class="leading-snug tracking-wide text-white text-opacity-100"
+                >
+                  Government Keshab Chandra College, Jhenaidah
+                </p>
+              </div>
+            </div>
+
+            <!-- Timeline Item 3 -->
+            <div class="mb-8 flex justify-between items-center w-full">
+              <div class="order-1 w-5/12"></div>
+              <div
+                class="z-20 flex items-center order-1 bg-[#de0733] shadow-xl w-8 h-8 rounded-full"
+              >
+                <h1 class="mx-auto text-white font-semibold text-lg">3</h1>
+              </div>
+              <div
+                class="order-1 bg-[#de0733] rounded-lg shadow-xl w-5/12 px-6 py-4"
+              >
+                <h3 class="mb-3 font-bold text-white text-xl">
+                  Secondary School Certificate (SSC)
+                </h3>
+                <p
+                  class="leading-snug tracking-wide text-white text-opacity-100"
+                >
+                  Jhenaidah Siddikia Kamil Madrasah
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Timeline Section End -->
+
+    <!-- Skills Section Start -->
+    <section
+      id="skills"
+      class="min-h-screen bg-[#141623] py-12 bg-cover bg-center"
+    >
+      <div class="container mx-auto p-8">
+        <h1 class="text-4xl font-bold mb-12 text-center text-white">
+          Capabilities and Talents
+        </h1>
+
+        <!-- First Row: 4 columns -->
+        <div
+          class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 container lg:px-16"
+        >
+          <!-- Skill Card 1 -->
+          <div class="shadow-lg rounded-lg p-6 text-center bg-[#181b2a]">
+            <h2 class="text-xl font-bold text-white rounded p-1 inline-block">
+              C
+            </h2>
+          </div>
+          <!-- Skill Card 2 -->
+          <div class="shadow-lg rounded-lg p-6 text-center bg-[#181b2a]">
+            <h2 class="text-xl font-bold text-white rounded p-1 inline-block">
+              C++
+            </h2>
+          </div>
+          <!-- Skill Card 3 -->
+          <div class="shadow-lg rounded-lg p-6 text-center bg-[#181b2a]">
+            <h2 class="text-xl font-bold text-white rounded p-1 inline-block">
+              JavaScript
+            </h2>
+          </div>
+          <!-- Skill Card 4 -->
+          <div class="shadow-lg rounded-lg p-6 text-center bg-[#181b2a]">
+            <h2 class="text-xl font-bold text-white rounded p-1 inline-block">
+              Python
+            </h2>
+          </div>
+        </div>
+
+        <!-- Second Row: 3 columns -->
+        <div
+          class="grid grid-cols-1 sm:grid-cols-3 gap-6 mt-6 container lg:px-40"
+        >
+          <!-- Skill Card 5 -->
+          <div class="shadow-lg rounded-lg p-6 text-center bg-[#181b2a]">
+            <h2 class="text-xl font-bold text-white rounded p-1 inline-block">
+              HTML
+            </h2>
+          </div>
+          <!-- Skill Card 6 -->
+          <div class="shadow-lg rounded-lg p-6 text-center bg-[#181b2a]">
+            <h2 class="text-xl font-bold text-white rounded p-1 inline-block">
+              CSS
+            </h2>
+          </div>
+          <!-- Skill Card 7 -->
+          <div class="shadow-lg rounded-lg p-6 text-center bg-[#181b2a]">
+            <h2 class="text-xl font-bold text-white rounded p-1 inline-block">
+              Tailwind CSS
+            </h2>
+          </div>
+        </div>
+
+        <!-- Third Row: 2 columns -->
+        <div
+          class="grid grid-cols-1 sm:grid-cols-3 gap-6 mt-6 container lg:px-64"
+        >
+          <!-- Skill Card 8 -->
+          <div class="shadow-lg rounded-lg p-6 text-center bg-[#181b2a]">
+            <h2 class="text-xl font-bold text-white rounded p-1 inline-block">
+              Bootstrap
+            </h2>
+          </div>
+          <!-- Skill Card 9 -->
+          <div class="shadow-lg rounded-lg p-6 text-center bg-[#181b2a]">
+            <h2 class="text-xl font-bold text-white rounded p-1 inline-block">
+              Django
+            </h2>
+          </div>
+          <!-- Skill Card 10 -->
+          <div class="shadow-lg rounded-lg p-6 text-center bg-[#181b2a]">
+            <h2 class="text-xl font-bold text-white rounded p-1 inline-block">
+              MySQL
+            </h2>
+          </div>
+        </div>
+
+        <!-- Fourth Row: 1 column -->
+        <div class="grid grid-cols-1 gap-6 mt-6 container lg:px-96">
+          <!-- Skill Card 11 -->
+          <div class="shadow-lg rounded-lg p-6 text-center bg-[#181b2a]">
+            <h2 class="text-xl font-bold text-white rounded p-1 inline-block">
+              PostgreSQL
+            </h2>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Skills Section End -->
+
+    <!-- Projects Section Start -->
+    <section id="projects" class="min-h-screen bg-[#141623] py-12">
+      <div class="container mx-auto p-8 px-20 text-white">
+        <h1 class="text-4xl font-bold mb-12 text-center">Projects</h1>
+
+        <!-- Project 1 -->
+        <div class="flex flex-col lg:flex-row items-center mb-12">
+          <div class="lg:w-1/2 p-8">
+            <img
+              src="images/p1.jpeg"
+              alt="Project Image 1"
+              class="rounded-lg shadow-lg"
+            />
+          </div>
+          <div class="lg:w-1/2 p-8">
+            <h2 class="text-3xl font-bold mb-4">
+              BrainWave (a tuition media website using Django REST API)
+            </h2>
+            <p class="mb-4">
+              <span class="font-bold">1.</span> BrainWave is a tuition media
+              website created using Django REST API that provides students with
+              access to a wide range of teachers .
+            </p>
+            <p class="mb-4">
+              <span class="font-bold">2.</span> With BrainWave, students can
+              search for courses based on their interests.
+            </p>
+            <p class="mb-4">
+              <span class="font-bold">3.</span> With the help of the website,
+              any student will get the opportunity of online classes by booking
+              the teacher of his choice
+            </p>
+            <div class="flex justify-around items-center gap-6">
+              <div>
+                <button
+                  class="btn-modern bg-[#de0733] text-white rounded py-3 px-6 text-lg"
+                >
+                  Live Link
+                </button>
+              </div>
+              <div>
+                <button
+                  class="btn-modern bg-[#de0733] text-white rounded py-3 px-6 text-lg"
+                >
+                  Github
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="flex flex-col lg:flex-row items-center mb-12">
+          <div class="lg:w-1/2 p-8">
+            <h2 class="text-3xl font-bold mb-4">
+              BrainWave (a tuition media website using Django REST API)
+            </h2>
+            <p class="mb-4">
+              <span class="font-bold">1.</span> BrainWave is a tuition media
+              website created using Django REST API that provides students with
+              access to a wide range of teachers.
+            </p>
+            <p class="mb-4">
+              <span class="font-bold">2.</span> With BrainWave, students can
+              search for courses based on their interests.
+            </p>
+            <p class="mb-4">
+              <span class="font-bold">3.</span> With the help of the website,
+              any student will get the opportunity of online classes by booking
+              the teacher of his choice
+            </p>
+            <div class="flex justify-around items-center gap-6">
+              <div>
+                <button
+                  class="btn-modern bg-[#de0733] text-white rounded py-3 px-6 text-lg"
+                >
+                  Live Link
+                </button>
+              </div>
+              <div>
+                <button
+                  class="btn-modern bg-[#de0733] text-white rounded py-3 px-6 text-lg"
+                >
+                  Github
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="lg:w-1/2 p-8">
+            <img
+              src="images/p2.jpeg"
+              alt="Project Image 1"
+              class="rounded-lg shadow-lg"
+            />
+          </div>
+        </div>
+
+        <div class="flex flex-col lg:flex-row items-center mb-12">
+          <div class="lg:w-1/2 p-8">
+            <img
+              src="images/p-3.jpeg"
+              alt="Project Image 1"
+              class="rounded-lg shadow-lg"
+            />
+          </div>
+          <div class="lg:w-1/2 p-8">
+            <h2 class="text-3xl font-bold mb-4">
+              MedAi ( A ML base diabetes prediction web Application Using
+              Django)
+            </h2>
+            <p class="mb-4">
+              <span class="font-bold">1.</span> Users can easily predict their
+              risk of diabetes using the MedAi platform, enabling early
+              detection and intervention.
+            </p>
+            <p class="mb-4">
+              <span class="font-bold">2.</span> The user-friendly dashboard
+              provides personalized advice from doctors and actionable
+              recommendations, helping users manage their health effectively.
+            </p>
+            <p class="mb-4">
+              <span class="font-bold">3.</span> Users can download their
+              diabetes prediction reports in PDF format and receive them via
+              email for personal record-keeping and sharing with healthcare
+              professionals.
+            </p>
+            <div class="flex justify-around items-center gap-6">
+              <div>
+                <button
+                  class="btn-modern bg-[#de0733] text-white rounded py-3 px-6 text-lg"
+                >
+                  Live Link
+                </button>
+              </div>
+              <div>
+                <button
+                  class="btn-modern bg-[#de0733] text-white rounded py-3 px-6 text-lg"
+                >
+                  Github
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Add more projects as needed -->
+      </div>
+    </section>
+    <!-- Projects Section End -->
+
+    <!-- Contact Section Start -->
+    <section
+      id="contact"
+      class="min-h-screen bg-[#141623] py-12 bg-cover bg-center text-white"
+    >
+      <div class="container mx-auto p-8 px-20">
+        <h1 class="text-4xl font-bold mb-12 text-center text-white">
+          Contact Me
+        </h1>
+        <div class="flex flex-col lg:flex-row items-center">
+          <!-- Contact Form -->
+          <div class="lg:w-1/2 p-8">
+            <form class="bg-[#141623] shadow-lg rounded-lg p-8">
+              <div class="mb-4">
+                <label
+                  for="name"
+                  class="block text-gray-700 text-sm font-bold mb-2 text-white"
+                  >Name</label
+                >
+                <input
+                  type="text"
+                  id="name"
+                  class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline bg-[#181b2a]"
+                  placeholder="Your Name"
+                />
+              </div>
+              <div class="mb-4">
+                <label
+                  for="email"
+                  class="block text-gray-700 text-sm font-bold mb-2 text-white"
+                  >Email</label
+                >
+                <input
+                  type="email"
+                  id="email"
+                  class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline bg-[#181b2a]"
+                  placeholder="Your Email"
+                />
+              </div>
+              <div class="mb-6">
+                <label
+                  for="message"
+                  class="block text-gray-700 text-sm font-bold mb-2 text-white"
+                  >Message</label
+                >
+                <textarea
+                  id="message"
+                  class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline bg-[#181b2a]"
+                  placeholder="Your Message"
+                  rows="5"
+                ></textarea>
+              </div>
+              <div class="flex items-center justify-between">
+                <button
+                  type="submit"
+                  class="bg-[#de0733] hover:bg-indigo-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+                >
+                  Contact Me
+                </button>
+              </div>
+            </form>
+          </div>
+
+          <!-- Image and Social Media Links -->
+          <div class="lg:w-1/2 p-8 ms-2 lg:ms-10">
+            <img
+              src="https://img.freepik.com/free-photo/flat-lay-chat-bubbles-with-telephone-receiver_23-2148796077.jpg?t=st=1720293095~exp=1720296695~hmac=3ea79f09e0786c7fbc1a07f7e4f7c22f6d2e3a01a881641a3c1a6e60b1affc2e&w=740"
+              alt="Contact Image"
+              class="rounded-lg shadow-lg mb-8"
+            />
+            <div class="flex justify-center space-x-4">
+              <a href="https://www.facebook.com" target="_blank">
+                <i
+                  class="fab fa-facebook fa-2x text-gray-700 hover:text-blue-700"
+                ></i>
+              </a>
+              <a href="https://www.linkedin.com" target="_blank">
+                <i
+                  class="fab fa-linkedin fa-2x text-gray-700 hover:text-blue-500"
+                ></i>
+              </a>
+              <a href="https://www.github.com" target="_blank">
+                <i
+                  class="fab fa-github fa-2x text-gray-700 hover:text-black"
+                ></i>
+              </a>
+              <a href="https://www.twitter.com" target="_blank">
+                <i
+                  class="fab fa-twitter fa-2x text-gray-700 hover:text-blue-400"
+                ></i>
+              </a>
+              <a href="https://www.instagram.com" target="_blank">
+                <i
+                  class="fab fa-instagram fa-2x text-gray-700 hover:text-pink-500"
+                ></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Contact Section End -->
+
+    <footer class="bg-[#181b2a] text-white text-center p-6">
+      <p class="text-center">
+        Copyright © Ashik Ahmed Aronb 2024 - All right reserved
+      </p>
+    </footer>
+  </body>
+</html>
